@@ -1,0 +1,6 @@
+FROM mhart/alpine-node:8.9.4
+WORKDIR /app
+ADD ./package.json /app/package.json
+RUN npm install
+COPY . /app
+CMD ["npm", "start"]

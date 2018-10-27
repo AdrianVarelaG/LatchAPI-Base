@@ -1,0 +1,32 @@
+{
+  "name": "latchapi",
+  "version": "1.0.0",
+  "description": "nodejs restAPI for LatchUI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node -- ./src/app.js"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Cesar Varela",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "keycloak-connect": "^4.2.1",
+    "mongodb": "^3.1.1",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.3"
+  }
+}

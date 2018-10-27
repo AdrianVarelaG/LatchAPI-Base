@@ -1,0 +1,5 @@
+node_modules
+AWS.env
+deploy.sh
+dev.deploy.sh
+local.deploy.sh
